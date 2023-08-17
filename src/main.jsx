@@ -13,7 +13,7 @@ import Community from "./chat-pages/Community.jsx"
 import "./login-styles/App.css"
 import Settings from "./chat-pages/Settings.jsx"
 import Exercises from "./SidePanel/Exercises.jsx"
-import Help from "./SidePanel/help.jsx"
+import Help from "./sidepanel/help.jsx"
 import {
   createBrowserRouter,
   RouterProvider,
