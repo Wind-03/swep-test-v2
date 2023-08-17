@@ -41,13 +41,13 @@ function Navbar() {
                     isNavExpanded ? "links expanded" : "links"
                 }>
                     <NavLink className='link-decor'><Link className="decor" to="/Aichat"><img src={Buddy}></img>Buddy</Link></NavLink>
-                    <NavLink className='link-decor'><Link className="decor"><img src={Activities}></img>Exercises</Link></NavLink>
+                    <NavLink className='link-decor'><Link className="decor" to='/Exercises'><img src={Activities}></img>Exercises</Link></NavLink>
                     <NavLink className='link-decor'><Link className="decor" to="/Community"><img src={Community}></img>Community</Link></NavLink>
                 </div>
                 <div className={
                     isNavExpanded ? "utility expanded" : "utility"
                 }>
-                    <NavLink className='link-decor hide'><Link className="decor"><img src={Help}></img><p>Get Help</p></Link></NavLink>
+                    <NavLink className='link-decor hide'><Link className="decor" to="/Gethelp"><img src={Help}></img><p>Get Help</p></Link></NavLink>
                     <NavLink className='link-decor'><Link className="decor" to="/Settings"><img src={SettingsImg}></img>Settings</Link></NavLink>
                     <NavLink className='link-decor'><Link className="decor"><img src={Log}></img>Log Out</Link></NavLink>
                 </div>
