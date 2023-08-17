@@ -3,6 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Signin from './login-pages/SignIn.jsx'
 import './index.css'
+import LandingPage from './LandingPage/LandingPage.jsx'
 import Signup from './login-pages/SignUp.jsx'
 import Security from './chat-pages/Security.jsx'
 import Info from './login-pages/Info.jsx'
@@ -11,6 +12,8 @@ import Aichat from './chat-pages/AiChat.jsx'
 import Community from "./chat-pages/Community.jsx"
 import "./login-styles/App.css"
 import Settings from "./chat-pages/Settings.jsx"
+import Exercises from "./SidePanel/Exercises.jsx"
+import Gethelp from "./SidePanel/getHelp.jsx"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +29,10 @@ export default axios.create({
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <LandingPage/>,
+  },
+  {
+    path: "Signin",
     element: <Signin/>,
   },
   {
@@ -55,6 +62,14 @@ const router = createBrowserRouter([
   {
     path: "Security",
     element: <Security />,
+  },
+  {
+    path: "Exercises",
+    element: <Exercises />,
+  },
+  {
+    path: "Gethelp",
+    element: <Gethelp />,
   },
 ]);
 
