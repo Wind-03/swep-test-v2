@@ -12,7 +12,7 @@ import Aichat from './chat-pages/AiChat.jsx'
 import Community from "./chat-pages/Community.jsx"
 import "./login-styles/App.css"
 import Settings from "./chat-pages/Settings.jsx"
-import Exercises from "./SidePanel/Exercises.jsx"
+import Exercises from "./sidepanel/Exercises.jsx"
 import Help from "./sidepanel/help.jsx"
 import {
   createBrowserRouter,
