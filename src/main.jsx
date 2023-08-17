@@ -13,7 +13,7 @@ import Community from "./chat-pages/Community.jsx"
 import "./login-styles/App.css"
 import Settings from "./chat-pages/Settings.jsx"
 import Exercises from "./SidePanel/Exercises.jsx"
-import Gethelp from "./SidePanel/getHelp.jsx"
+import Help from "./SidePanel/help.jsx"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -68,8 +68,8 @@ const router = createBrowserRouter([
     element: <Exercises />,
   },
   {
-    path: "Gethelp",
-    element: <Gethelp />,
+    path: "Help",
+    element: <help />,
   },
 ]);
 
